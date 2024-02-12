@@ -26,9 +26,6 @@ def load_model_and_predict(model_path, image_name):
     # Perform prediction
     results = model_best.predict(source=image_path, save=True, boxes=True)
     
-    # Print the results
-    print(results)
-    
     # Display the image with predictions using matplotlib
     img = Image.open(image_path)
     plt.imshow(img)
