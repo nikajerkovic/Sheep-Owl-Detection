@@ -1,7 +1,7 @@
 import argparse
 import os
 from PIL import Image
-from ultralytics import YOLO  # Assuming you're using YOLO from the ultralytics package
+from ultralytics import YOLO
 
 def predict_from_folder(best_model_path, test_images_directory):
     # Load the best model
@@ -18,15 +18,10 @@ def predict_from_folder(best_model_path, test_images_directory):
             im = Image.open(image_path)
 
             # Perform prediction
-            results = best_model.predict(source=im, save=True)  # Assuming 'save=True' saves the image with plotted boxes
-
-            # Print results or handle them as needed
-            print(results)
+            results = best_model.predict(source=im, save=True)
 
             # The saved image path might need to be adjusted depending on where 'best_model.predict' saves the images
-            # Assuming images are saved in a specific directory, adjust the path as necessary
             saved_image_path = f'runs/detect/predict/{image_file}'
-            # Optionally display or further process the saved images
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Perform prediction on images from a specified folder.')
