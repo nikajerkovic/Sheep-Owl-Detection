@@ -45,9 +45,16 @@ In Command Prompt:
   6. Making predictions
 
       If you've trained the model, you can use the top-performing weights found at runs/detect/train/weights/best.pt. Alternatively, you can use the ones provided in this repository.
-      
+     
+      To predict on a single image, use the following command:
       ```
       python predict.py /path/to/best.pt /path/to/image.jpg
+      ```
+      
+      For processing an entire folder of images:
+     
+      ```
+      python predict_from_folder.py /path/to/best.pt /path/to/test/images
       ```
 
 ## Results
