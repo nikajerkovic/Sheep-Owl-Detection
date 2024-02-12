@@ -32,7 +32,7 @@ In Command Prompt:
      
      ```
      You can specify any combination of 'train', 'test', or 'validation' for the dataset splits.
-     python download.py --export_dir "<path/to/export/directory>" --splits <split1> <split2> ... --max_samples <number_of_samples>
+     python download_dataset.py --export_dir "<path/to/export/directory>" --splits <split1> <split2> ... --max_samples <number_of_samples>
      ```
      or you can download the dataset from [Google Drive](https://drive.google.com/file/d/17hCNN3HpmSg63DIvscNlCNlb-wM1z20d/view?usp=sharing).  Once downloaded, unzip the file and place it in the Sheep-Owl-Detection directory.
      
