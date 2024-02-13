@@ -1,5 +1,5 @@
 # Sheep and Owls Detection with YOLOv8
-![Made with YOLOv8](https://img.shields.io/badge/Made_with-YOLOv8-green)
+[![Made with YOLOv8](https://img.shields.io/badge/Made_with-YOLOv8-green)](https://docs.ultralytics.com/)
 
 
 This repository containes the completed project for a hiring challenge. The task involved creating and training a specialized AI model to identify just two distinct objects, sheep and owls, within images. This objective was achieved utilizing the YOLOv8 (You Only Look Once) architecture, a cutting-edge framework in object detection. 
@@ -63,5 +63,13 @@ The results from the most recent successful training session can be found [here]
 This directory also includes performance metrics on the test data located in detect/val. Of particular interest are the contents of detect/predict/predicted_and_true, where visual comparisons of the model predictions against the actual labels for all test images are provided. In the following examples from the specified folder, blue boxes represent the actual bounding boxes, while the red/peach boxes indicate the model predictions:
 
 ![alt text](https://github.com/nikajerkovic/Sheep-Owl-Detection/blob/main/image_for_readme.png)
+
+
+## Resources
+
+- [Open Images Dataset V7](https://storage.googleapis.com/openimages/web/index.html)
+- [FiftyOne](https://docs.voxel51.com/)
+- [Ultralytics for YOLOv8](https://docs.ultralytics.com/)
+
 
       
