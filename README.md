@@ -6,7 +6,7 @@ This repository contains the completed project for a hiring challenge. The task 
 
 The solution provides a detailed Jupyter Notebook that walks through building and training an AI model. The code has been organized into scripts for added convenience, allowing for straightforward and efficient utilization. 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/nikajerkovic/Sheep-Owl-Detection/blob/main/Sheep_Owls_detection.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zENtqvsL13vCZk2hRd5I2GWQ2_J9ECAv?usp=sharing)
 
 ## Installation and usage
 In Command Prompt:
