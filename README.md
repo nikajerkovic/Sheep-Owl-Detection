@@ -34,7 +34,7 @@ In Command Prompt:
      You can specify any combination of 'train', 'test', or 'validation' for the dataset splits.
      python download_dataset.py --export_dir "<path/to/export/directory>" --splits <split1> <split2> ... --max_samples <number_of_samples>
      ```
-     or you can download the dataset from [Google Drive](https://drive.google.com/file/d/17hCNN3HpmSg63DIvscNlCNlb-wM1z20d/view?usp=sharing).  Once downloaded, unzip the file and place it in the Sheep-Owl-Detection directory.
+     or you can download the dataset from [here](https://drive.google.com/file/d/17hCNN3HpmSg63DIvscNlCNlb-wM1z20d/view?usp=sharing).  Once downloaded, unzip the file and place it in the Sheep-Owl-Detection directory.
      
   5. Train the model (optional)
 
@@ -58,5 +58,8 @@ In Command Prompt:
       ```
 
 ## Results
+
+The results from the most recent successful training session can be found [here](https://drive.google.com/file/d/1dMueyC95fHef9xHnQ-dEUaLpmrr7sRNh/view?usp=sharing). </br>
+This directory also includes performance metrics on the test data located in detect/val. Of particular interest are the contents of detect/predict/predicted_and_true, where visual comparisons of the model's predictions against the actual labels for all test images are provided. Here you can see two examples from that folder, where blue indicates real bounding box and red/peach predicted one:
 
       
