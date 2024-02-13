@@ -2,11 +2,11 @@
 [![Made with YOLOv8](https://img.shields.io/badge/Made_with-YOLOv8-green)](https://docs.ultralytics.com/)
 
 
-This repository containes the completed project for a hiring challenge. The task involved creating and training a specialized AI model to identify just two distinct objects, sheep and owls, within images. This objective was achieved utilizing the YOLOv8 (You Only Look Once) architecture, a cutting-edge framework in object detection. 
+This repository contains the completed project for a hiring challenge. The task involved creating and training a specialized AI model to identify just two distinct objects, sheep and owls, within images. This objective was achieved utilizing the YOLOv8 (You Only Look Once) architecture, a cutting-edge framework in object detection. 
 
-The solution provides a detailed Jupyter notebook that walks through building and training an AI model. The code has been organized into scripts for added convenience, allowing for straightforward and efficient utilization. 
+The solution provides a detailed Jupyter Notebook that walks through building and training an AI model. The code has been organized into scripts for added convenience, allowing for straightforward and efficient utilization. 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPOSITORY/blob/YOUR_BRANCH/YOUR_NOTEBOOK.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/nikajerkovic/Sheep-Owl-Detection/blob/main/Sheep_Owls_detection.ipynb)
 
 ## Installation and usage
 In Command Prompt:
