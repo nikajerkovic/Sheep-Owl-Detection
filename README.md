@@ -60,7 +60,7 @@ In Command Prompt:
 ## Results
 
 The results from the most recent successful training session can be found [here](https://drive.google.com/file/d/1dMueyC95fHef9xHnQ-dEUaLpmrr7sRNh/view?usp=sharing). </br>
-This directory also includes performance metrics on the test data located in detect/val. Of particular interest are the contents of detect/predict/predicted_and_true, where visual comparisons of the model predictions against the actual labels for all test images are provided. In the following examples from the specified folder, blue boxes represent the actual bounding boxes, while the red/peach boxes indicate the model predictions:
+This directory also includes performance metrics on the test data located in *detect/val*. Of particular interest are the contents of *detect/predict/predicted_and_true*, where visual comparisons of the model predictions against the actual labels for all test images are provided. In the following examples from the specified folder, blue boxes represent the actual bounding boxes, while the red/peach boxes indicate the model predictions:
 
 ![alt text](https://github.com/nikajerkovic/Sheep-Owl-Detection/blob/main/image_for_readme.png)
 
